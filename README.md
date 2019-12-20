@@ -2,9 +2,13 @@
 Generiere eine Adressliste aus der CeviDB
 
 # Requirements
-- python 3.5.2
-- requests v2.18.4
-- xlsxwriter v0.7.3
+Am besten benutzt du ein virtual-environment, z.B. `virtualenv`.
+
+`virtualenv venv`
+
+`source venv/bin/activate`
+
+`pip install -r requirements.txt`
 
 # Ausführung
 Bearbeite CeviDB-Export.py (Zeilen 8 bis 19) und führe es aus. Nach erfolgreichem Durchlaufen sollte eine Adresslite (Excel-Datei) im gleichen Verzeichnis existieren.
