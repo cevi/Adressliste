@@ -11,4 +11,4 @@ Am besten benutzt du ein virtual-environment, z.B. `virtualenv`.
 `pip install -r requirements.txt`
 
 # Ausführung
-Bearbeite CeviDB-Export.py (Zeilen 8 bis 19) und führe es aus. Nach erfolgreichem Durchlaufen sollte eine Adresslite (Excel-Datei) im gleichen Verzeichnis existieren.
+Bearbeite CeviDB-Export.py (Zeilen 8 bis 19) und führe es aus. Nach erfolgreichem Durchlaufen sollte eine Adressliste (Excel-Datei) im gleichen Verzeichnis existieren.
