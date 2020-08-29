@@ -47,7 +47,6 @@ total = 0
 yellow_cell = workbook.add_format()
 yellow_cell.set_bg_color("yellow")
 
-
 group_index = 0
 for GRUPPE in groups:
     # read url for group, order by role asc
@@ -83,12 +82,16 @@ for GRUPPE in groups:
                         phones.append(j["number"])
                     if(k==j["id"] and j["label"]=="Mobil"):
                         eigene_phone = j["number"]
+        except:
+            pass
+        try:
             for j in full_gr["linked"]["additional_emails"]:
                 for k in gr[i]["links"]["additional_emails"]:
                     if(k==j["id"]):
                         email.append(j["email"])
-        except Exception:
+        except:
             pass
+
         # get tn_group by name
         for j in full_gr["linked"]["groups"]:
             if(tn_group == j["id"]):
