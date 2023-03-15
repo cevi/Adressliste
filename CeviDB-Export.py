@@ -7,10 +7,10 @@ import datetime
 
 # user token and get-params predefined
 token = "INSERT TOKEN HERE"
-email = "INSERT EMAIL HERE"
-ende = "?user_email="+email+"&user_token="+token
+ende = "?token="+token
 
 ortsgruppe = "INSERT ORTSGRUPPE HERE"
+
 
 # Gruppen und Farben einstellungen:
 # groups: eine liste mit ID's (aus der CeviDB), welche in dieser Reihenfolge in der Adressliste auftauchen
